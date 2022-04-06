@@ -2,7 +2,6 @@
 #include <windows.h>
 #include <cstdint>
 
-
 class Problems
 {
 public:

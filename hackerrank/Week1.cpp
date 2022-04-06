@@ -37,5 +37,28 @@ void Week1::runPlusMinus(void)
 // Week 1 problem 1
 void Week1::plusMinus(uint8_t arr_count, int8_t* arr) 
 {
+	float c0 = 0, c1 = 0, c2 = 0;
+	for (int i = 0; i < arr_count; i++)
+	{
+		if (arr[i] < 0)
+		{
+			c0++;
+		}
+		else if (arr[i] == 0)
+		{
+			c1++;
+		}
+		else if (arr[i] > 0)
+		{
+			c2++;
+		}
+	}
+	printf("%06f\n", c2 / arr_count);
+	printf("%06f\n", c0 / arr_count);
+	printf("%06f\n", c1 / arr_count);
 
+	// For C++
+	//std::cout << std::fixed << std::setfill('0') << std::setprecision(6) << c2/arr_count << std::endl;
+	//std::cout << std::fixed << std::setfill('0') << std::setprecision(6) << c0/arr_count << std::endl;
+	//std::cout << std::fixed << std::setfill('0') << std::setprecision(6) << c1/arr_count << std::endl;
 }
