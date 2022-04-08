@@ -3,12 +3,40 @@
 
 #include <iostream>
 #include "Week1.h"
+#include <iostream>
+#include <vector>
 
 Week1 weekOne;
 
+using namespace std;
+
 int main()
 {
-    weekOne.runPlusMinus();
+    //weekOne.runPlusMinus();
+    uint64_t a = 0;
+    vector<int> arr;
+    arr.push_back(140638725);
+    arr.push_back(362748590);
+    arr.push_back(436257910);
+    arr.push_back(734065819);
+    arr.push_back(953274816);
+    std::cout << a << std::endl;
+    a += arr[1];
+    std::cout << a << std::endl;
+    a += arr[2];
+    std::cout << a << std::endl;
+    a += arr[3];
+    std::cout << a << std::endl;
+    a += arr[4 ];
+    std::cout << a << std::endl;
+
+    /*
+    140638725
+    362748590
+    436257910
+    734065819
+    953274816
+    */
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

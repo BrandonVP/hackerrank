@@ -62,3 +62,4 @@ void Week1::plusMinus(uint8_t arr_count, int8_t* arr)
 	//std::cout << std::fixed << std::setfill('0') << std::setprecision(6) << c0/arr_count << std::endl;
 	//std::cout << std::fixed << std::setfill('0') << std::setprecision(6) << c1/arr_count << std::endl;
 }
+
